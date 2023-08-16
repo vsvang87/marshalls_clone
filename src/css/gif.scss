@@ -1,0 +1,19 @@
+@use "./mixins" as *;
+
+.gif-container {
+  .gif-content {
+    position: relative;
+    .button-div {
+      position: absolute;
+      left: 22%;
+      bottom: 7rem;
+      button {
+        padding: 1rem 2.5rem;
+        margin: 0.5rem;
+        border-radius: 50px 50px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

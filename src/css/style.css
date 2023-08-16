@@ -36,7 +36,7 @@ nav .navbar .nav-links li a {
 }
 
 .banner {
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
 }
 .banner .content {
   display: flex;
@@ -46,12 +46,14 @@ nav .navbar .nav-links li a {
 }
 .banner .content .logo {
   width: 55%;
+  text-align: right;
 }
 .banner .content .logo img {
   width: 30%;
 }
 .banner .content .search-bar {
   width: 45%;
+  text-align: right;
 }
 .banner .dropdown-menu ul {
   padding: 0;
@@ -68,6 +70,34 @@ nav .navbar .nav-links li a {
   font-weight: 600;
   text-decoration: none;
   color: rgb(41, 41, 41);
+  padding-bottom: 0.5rem;
+}
+.banner .dropdown-menu ul li a:hover {
+  border-bottom: 3px solid rgb(14, 14, 221);
+}
+
+.gray-banner {
+  background: rgb(233, 233, 233);
+}
+.gray-banner .banner-content {
+  padding: 0.4rem 0;
+  text-align: center;
+}
+
+.gif-container .gif-content {
+  position: relative;
+}
+.gif-container .gif-content .button-div {
+  position: absolute;
+  left: 22%;
+  bottom: 7rem;
+}
+.gif-container .gif-content .button-div button {
+  padding: 1rem 2.5rem;
+  margin: 0.5rem;
+  border-radius: 50px 50px;
+  border: none;
+  cursor: pointer;
 }
 
 body {
