@@ -1,0 +1,40 @@
+.banner {
+  padding: 2rem 0;
+}
+.banner .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.banner .content .logo {
+  width: 55%;
+  text-align: right;
+}
+.banner .content .logo img {
+  width: 30%;
+}
+.banner .content .search-bar {
+  width: 45%;
+  text-align: right;
+}
+.banner .dropdown-menu ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .dropdown-menu ul li {
+  list-style-type: none;
+  padding: 0 0.8rem;
+}
+.banner .dropdown-menu ul li a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  padding-bottom: 0.5rem;
+}
+.banner .dropdown-menu ul li a:hover {
+  border-bottom: 3px solid rgb(14, 14, 221);
+}/*# sourceMappingURL=search.css.map */

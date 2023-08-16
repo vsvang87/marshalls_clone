@@ -1,0 +1,44 @@
+@use "./colors.scss" as *;
+@use "./mixins.scss" as *;
+@use "./fontsize.scss" as *;
+
+.banner {
+  padding: 2rem 0;
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    .logo {
+      width: 55%;
+      text-align: right;
+      img {
+        width: 30%;
+      }
+    }
+    .search-bar {
+      width: 45%;
+      text-align: right;
+    }
+  }
+  .dropdown-menu {
+    ul {
+      padding: 0;
+      @include flexcenter;
+      li {
+        list-style-type: none;
+        padding: 0 0.8rem;
+        a {
+          font-size: $fontSmall;
+          font-weight: 600;
+          text-decoration: none;
+          color: $darkGray;
+          padding-bottom: 0.5rem;
+          &:hover {
+            border-bottom: 3px solid $blue;
+          }
+        }
+      }
+    }
+  }
+}

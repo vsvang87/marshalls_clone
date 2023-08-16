@@ -1,0 +1,82 @@
+nav {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navbar .logo-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+nav .navbar .logo-links li {
+  list-style-type: none;
+  padding: 0 2rem 0 0;
+}
+nav .navbar .logo-links li a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+nav .navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navbar .nav-links li {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+}
+nav .navbar .nav-links li a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+
+.banner {
+  padding: 2rem 0;
+}
+.banner .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.banner .content .logo {
+  width: 55%;
+}
+.banner .content .logo img {
+  width: 30%;
+}
+.banner .content .search-bar {
+  width: 45%;
+}
+.banner .dropdown-menu ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .dropdown-menu ul li {
+  list-style-type: none;
+  padding: 0 0.8rem;
+}
+.banner .dropdown-menu ul li a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: min(90%, 100rem);
+  margin-inline: auto;
+}/*# sourceMappingURL=style.css.map */

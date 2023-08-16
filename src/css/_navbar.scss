@@ -1,0 +1,33 @@
+@use "./mixins.scss" as *;
+@use "./colors.scss" as *;
+
+nav {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid $lightGray;
+  .navbar {
+    @include flexspacebetween;
+    .logo-links {
+      @include flexspacebetween;
+      padding: 0;
+      li {
+        list-style-type: none;
+        padding: 0 2rem 0 0;
+        a {
+          text-decoration: none;
+          color: $darkGray;
+        }
+      }
+    }
+    .nav-links {
+      @include flexspacebetween;
+      li {
+        list-style-type: none;
+        padding: 0 0 0 2rem;
+        a {
+          text-decoration: none;
+          color: $darkGray;
+        }
+      }
+    }
+  }
+}
