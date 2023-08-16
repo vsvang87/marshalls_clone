@@ -84,13 +84,20 @@ nav .navbar .nav-links li a {
   text-align: center;
 }
 
+.gif-container {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
 .gif-container .gif-content {
   position: relative;
 }
+.gif-container .gif-content img {
+  width: 100%;
+}
 .gif-container .gif-content .button-div {
   position: absolute;
-  left: 22%;
-  bottom: 7rem;
+  left: 12%;
+  bottom: 5rem;
 }
 .gif-container .gif-content .button-div button {
   padding: 1rem 2.5rem;
@@ -98,6 +105,38 @@ nav .navbar .nav-links li a {
   border-radius: 50px 50px;
   border: none;
   cursor: pointer;
+  background: rgb(255, 2, 2);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.gif-container .gif-content .button-div button:hover {
+  background: #fff;
+  color: rgb(255, 2, 2);
+}
+
+.banner2-container .banner2-content {
+  background: rgb(233, 233, 233);
+  padding: 1rem 0;
+}
+.banner2-container .banner2-content p {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+}
+.banner2-container .banner2-content .span-col {
+  padding: 0 3rem;
+}
+.banner2-container .banner2-content .size {
+  font-size: 2rem;
+}
+.banner2-container .banner2-content .size a {
+  text-decoration: underline;
+  color: rgb(41, 41, 41);
+}
+.banner2-container .banner2-content .new-font {
+  font-family: "Courgette", cursive;
+  font-size: 3rem;
+  color: rgb(41, 41, 41);
 }
 
 body {
@@ -107,6 +146,6 @@ body {
 }
 
 .container {
-  width: min(90%, 100rem);
+  width: min(85%, 100rem);
   margin-inline: auto;
 }/*# sourceMappingURL=style.css.map */

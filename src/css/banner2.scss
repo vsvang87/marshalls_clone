@@ -1,0 +1,30 @@
+@use "./colors" as *;
+@use "./fontsize" as *;
+@use "./mixins" as *;
+
+.banner2-container {
+  .banner2-content {
+    background: $lightGray;
+    padding: 1rem 0;
+    p {
+      padding: 0.5rem;
+      margin: 0;
+      text-align: center;
+    }
+    .span-col {
+      padding: 0 3rem;
+    }
+    .size {
+      font-size: $fontMedium;
+      a {
+        text-decoration: underline;
+        color: $darkGray;
+      }
+    }
+    .new-font {
+      font-family: "Courgette", cursive;
+      font-size: $fontXL;
+      color: $darkGray;
+    }
+  }
+}

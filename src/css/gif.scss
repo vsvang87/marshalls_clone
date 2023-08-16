@@ -1,18 +1,32 @@
 @use "./mixins" as *;
+@use "./colors" as *;
+@use "./fontsize" as *;
 
 .gif-container {
+  min-height: fit-content;
   .gif-content {
     position: relative;
+    img {
+      width: 100%;
+    }
     .button-div {
       position: absolute;
-      left: 22%;
-      bottom: 7rem;
+      left: 12%;
+      bottom: 5rem;
       button {
         padding: 1rem 2.5rem;
         margin: 0.5rem;
         border-radius: 50px 50px;
         border: none;
         cursor: pointer;
+        background: $red;
+        color: #fff;
+        font-size: $fontMedium;
+
+        &:hover {
+          background: #fff;
+          color: $red;
+        }
       }
     }
   }

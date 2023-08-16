@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Search from "./components/Search";
 import Banner from "./components/Banner";
 import Gif from "./components/Gif";
+import Banner2 from "./components/Banner2";
+import Box from "./components/Box";
 import "./css/style.scss";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Search />
       <Banner />
       <Gif />
+      <Banner2 />
+      <Box />
     </>
   );
 }

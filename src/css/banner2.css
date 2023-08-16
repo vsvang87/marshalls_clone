@@ -1,0 +1,24 @@
+.banner2-container .banner2-content {
+  background: rgb(233, 233, 233);
+  padding: 1rem 0;
+}
+.banner2-container .banner2-content p {
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+}
+.banner2-container .banner2-content .span-col {
+  padding: 0 3rem;
+}
+.banner2-container .banner2-content .size {
+  font-size: 1.5rem;
+}
+.banner2-container .banner2-content .size a {
+  text-decoration: underline;
+  color: rgb(41, 41, 41);
+}
+.banner2-container .banner2-content .new-font {
+  font-family: "Courgette", cursive;
+  font-size: 3rem;
+  color: rgb(41, 41, 41);
+}/*# sourceMappingURL=banner2.css.map */
